@@ -1,0 +1,143 @@
+.resultContainer {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dbeafe, #93c5fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.resultCard {
+  background: white;
+  width: 950px;
+  max-width: 95%;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.resultCard h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+.scoreSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.performance {
+  font-size: 18px;
+  font-weight: 600;
+  color: #16a34a;
+}
+
+.timeTaken {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.circleWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleInner {
+  width: 110px;
+  height: 110px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.feedbackSection {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.strengthBox,
+.improveBox {
+  flex: 1;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.strengthBox {
+  background: #ecfdf5;
+  border-left: 6px solid #22c55e;
+}
+
+.improveBox {
+  background: #fff7ed;
+  border-left: 6px solid #f97316;
+}
+
+.strengthBox ul,
+.improveBox ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.strengthBox li,
+.improveBox li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.breakdown h3 {
+  margin-bottom: 15px;
+}
+
+.breakdownItem {
+  background: #f3f4f6;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+.breakdownItem p {
+  margin: 5px 0;
+}
+
+.buttonGroup {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.retakeBtn {
+  background: #22c55e;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.backBtn {
+  background: #e5e7eb;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

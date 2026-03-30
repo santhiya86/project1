@@ -1,0 +1,99 @@
+.interviewContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #dbeafe, #93c5fd);
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+}
+
+.interviewCard {
+  background: #ffffff;
+  width: 750px;
+  max-width: 95%;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+}
+
+.interviewCard h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.interviewCard h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.questionCard {
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 15px;
+  border-left: 6px solid #22c55e;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.questionNumber {
+  font-weight: 600;
+  font-size: 14px;
+  color: #16a34a;
+  margin-bottom: 10px;
+}
+
+.questionText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+textarea {
+  width: 100%;
+  min-height: 130px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  padding: 15px;
+  font-size: 15px;
+  resize: vertical;
+  outline: none;
+  transition: 0.3s ease;
+  background: #ffffff;
+}
+
+textarea:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.3);
+}
+
+.nextBtn {
+  display: block;
+  margin: 30px auto 0;
+  background: #22c55e;
+  color: white;
+  padding: 12px 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nextBtn:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
+
+.nextBtn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  transform: none;
+}

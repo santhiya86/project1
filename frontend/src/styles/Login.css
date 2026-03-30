@@ -1,0 +1,67 @@
+/* Reset all margins/paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container covers full viewport, centers content horizontally and vertically */
+.login-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  width: 100vw;            /* full viewport width */
+  height: 100vh;           /* full viewport height */
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+}
+
+/* The login form box */
+.login-box {
+  background-color: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Inputs style */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Button style */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4e73df;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #2e59d9;
+}
+
+.login-box p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.login-box p a {
+  color: #4e73df;
+  text-decoration: none;
+}
+
+.login-box p a:hover {
+  text-decoration: underline;
+}

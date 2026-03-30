@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1fa2ff, #12d8fa, #a6ffcb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-card {
+  background: #ffffff;
+  width: 480px;
+  padding: 35px 40px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header h3 {
+  font-weight: 600;
+}
+
+.logout-btn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid #ff4d4d;
+  background: transparent;
+  color: #ff4d4d;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.title h1 {
+  color: #2c7be5;
+  margin-bottom: 5px;
+}
+
+.title p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Section Spacing */
+.section {
+  margin-bottom: 25px;
+}
+
+.section h4 {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Interview Type Buttons */
+.type-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.type-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #2c7be5;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Difficulty Radio */
+.difficulty {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+/* Action Buttons */
+.start-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #28a745;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.performance-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #1d72e8;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
