@@ -1,13 +1,19 @@
-name: CI
+name: Frontend CI
 
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/**'
   pull_request:
     branches: [ main ]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/**'
 
 jobs:
-  frontend-tests:
+  frontend-build:
     runs-on: ubuntu-latest
     
     defaults:
